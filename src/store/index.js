@@ -14,7 +14,7 @@ export default new Vuex.Store({
                 state.tareas.splice(payload.index,1,payload)
             }
             else{
-                state.tareas.push(payload);
+                state.tareas.push(payload) ;
             }
            
             localStorage.setItem('tareas', JSON.stringify(state.tareas))
