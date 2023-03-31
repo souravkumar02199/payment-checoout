@@ -1,10 +1,10 @@
 <template>
    <v-app>
-    <v-container>
-      <v-row>
-        <v-col xs="12" sm="12" lg8 md="8" lg="8" class="left_side">
+     <v-container>
+      <v-row >
+        <v-col xs="12" sm="12"  md="8" lg="8" class="left_side">
           <v-row class="text-start">
-            <v-col class="checkout py-0">
+            <v-col class="checkout py-2">
               <span color="#000034" class="text-left font-weight-bold display-2 justify-start">checkout</span>
             </v-col>
           </v-row>
@@ -17,7 +17,7 @@
           </v-row>
           <v-row row>
             <v-col  class="text-start py-0">
-              <v-card width="" height="145px" outlined  class="first_card" >
+              <v-card width="" height="145px"   class="first_card">
                 <v-row row class="text-start">
                     <v-col class="py-0">
                       <h3 style="width:203px" class="pt-7 pl-7 justify-center">Lifetime Warranty🔥</h3>
@@ -34,7 +34,7 @@
           </v-row>
           <v-row row>
             <v-col class="text-start py-0">
-              <v-card width="" height="160px" outlined  class="second_card" >
+              <v-card width="" height="160px"   class="second_card" >
                 <v-row row class="text-start">
                     <v-col class="py-0">
                       <h3 style="width:181px" class="pt-7 pl-7 justify-center">Express Checkout</h3>                    
@@ -59,7 +59,7 @@
           </v-row>
           <v-row row class="text-start">
             <v-col class="py-0">
-              <v-card width="" height="56px" outlined  class="third_card">
+              <v-card width="" height="56px"   class="third_card">
                 <v-text-field flat solo label="Email address" placeholder="johndoe@gmail.com" type="email" class="third_card_email" prepend-icon="mdi-email">
                   <v-icon></v-icon>
                 </v-text-field>
@@ -68,7 +68,7 @@
           </v-row>
           <v-row row class="text-start">
             <v-col class="py-0">
-              <v-card width="" height="56px" outlined  class="third_card">
+              <v-card width="" height="56px"   class="third_card">
                 <v-text-field flat solo label="Email address" placeholder="phone number" type="email" class="third_card_email" prepend-icon="mdi-phone-in-talk">
                 </v-text-field>
               </v-card>
@@ -81,7 +81,7 @@
           </v-row>
           <v-row row class="text-start">
             <v-col class="py-0">
-              <v-card width="" height="56px" outlined  class="third_card">
+              <v-card width="" height="56px"   class="third_card">
                 <v-text-field flat solo label="Select a Country" placeholder="johndoe@gmail.com" type="email" prepend-icon="mdi-license">
                 </v-text-field>
               </v-card>
@@ -89,13 +89,13 @@
           </v-row>
           <v-row row class="text-start">
             <v-col class="py-0">
-              <v-card width="" height="56px" outlined  class="third_card">
+              <v-card width="" height="56px"   class="third_card">
                 <v-text-field flat solo label="First Name" placeholder="johndoe@gmail.com" type="email" prepend-icon="mdi-account-outline">
                 </v-text-field>
               </v-card>
             </v-col>
             <v-col class="py-0">
-              <v-card width="" height="56px" outlined  class="third_card">
+              <v-card width="" height="56px"   class="third_card">
                 <v-text-field flat solo label="Last Name" placeholder="johndoe@gmail.com" type="email" prepend-icon="mdi-account-outline">
                 </v-text-field>
               </v-card>             
@@ -103,7 +103,7 @@
           </v-row>
           <v-row row class="text-start">
             <v-col class="py-0">
-              <v-card width="" height="56px" outlined  class="third_card">
+              <v-card width="" height="56px"   class="third_card">
                 <v-text-field flat solo label="Address" placeholder="johndoe@gmail.com" type="email" prepend-icon="mdi-map-marker-circle">
                 </v-text-field>
               </v-card>
@@ -111,7 +111,7 @@
           </v-row>
           <v-row row class="text-start">
             <v-col class="py-0">
-              <v-card width="" height="56px" outlined  class="third_card">
+              <v-card width="" height="56px"   class="third_card">
                 <v-text-field flat solo label="Aparment, suit, etc (Optional)" placeholder="johndoe@gmail.com" type="email" prepend-icon="mdi-domain">
                 </v-text-field>
               </v-card>
@@ -119,13 +119,13 @@
           </v-row>
           <v-row row class="text-start">
             <v-col class="py-0">
-              <v-card width="" height="56px" outlined  class="third_card">
+              <v-card width="" height="56px"   class="third_card">
                 <v-text-field flat solo label="City" placeholder="johndoe@gmail.com" type="email" prepend-icon="">
                 </v-text-field>
               </v-card>
             </v-col>
             <v-col class="py-0">
-              <v-card width="" height="56px" outlined  class="third_card">
+              <v-card width="" height="56px"   class="third_card">
                 <v-text-field flat solo label="Post code" placeholder="johndoe@gmail.com" type="email" prepend-icon="">
                 </v-text-field>
               </v-card>
@@ -138,7 +138,7 @@
           </v-row>
           <v-row row class="text-start">
             <v-col class="py-0">
-              <v-card width="" height="64px" outlined  class="third_card">
+              <v-card width="" height="64px"   class="third_card">
                 <v-text-field flat solo label="Free Shipping" placeholder="johndoe@gmail.com" type="email" prepend-icon="mdi-ellipse-outline">
                 </v-text-field>
               </v-card>
@@ -153,9 +153,9 @@
           </v-row>
         </v-col>
         <v-col xs="12" sm="12" lg="4" md="4" class="right_side py-0">
-          <v-card height="490px" outlined color="#EFF6FE" class="third_card">
+          <v-card height="490px"  color="#EFF6FE" class="third_card">
           </v-card>
-          <v-card height="196px" outlined  class="third_card mt-7">
+          <v-card height="196px"   class="third_card mt-7">
               <v-row row class="text-start ma-0">
                     <v-col xs="3" sm="3" lg="1" md="1" class="py-0 mt-6 ml-8 my-0" >
                       <!-- <h3 style="width:203px" class="pt-7 pl-7 justify-center">Lifetime Warranty🔥</h3> -->
@@ -195,17 +195,14 @@ export default defineComponent({
     width: 150px;
 }
 .first_card{
-  border: 1px solid #D6D8EE;
   margin-top: 38px;
   border-radius: 16px;
 }
 .second_card{
-  border: 1px solid #D6D8EE;
   margin-top: 20px;
   border-radius: 16px;
 }
 .third_card{
-  border: 1px solid #D6D8EE;
   margin-top: 20px;
   border-radius: 16px;
 }
